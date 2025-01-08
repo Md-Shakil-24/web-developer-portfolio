@@ -10,6 +10,12 @@
     "wdth" 100;
 }
 
+.head{
+    background-image: url(/images/developer.png), url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    height: 780px;
+    background-position: top left, bottom right;
+}
 /* nav style */
 nav{
     margin: 10px 200px;
@@ -66,7 +72,35 @@ nav ul{
     border-radius: 5px;
     cursor: pointer;
     font-size: 20px;
-    padding: 10px 20px;
+    padding: 10px 20px ;
+    
    
+}
+
+
+.button-style2{
+    color: #FD6E0A;
+    border: solid #FD6E0A;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px 20px ;
+}
+
+.banner{
+    margin: 0px 50px 0px 200px; 
+    display: flex;
+    align-items: center;
+
+}
+
+.banner-img{
+    width : 534px;
+
+}
+
+.hardy{
+    font-size: 40px;
 }
 
