@@ -15,10 +15,11 @@
     background-repeat: no-repeat;
     height: 780px;
     background-position: top left, bottom right;
+    background-color: antiquewhite;
 }
 /* nav style */
 nav{
-    margin: 10px 200px;
+    margin: 10px 180px;
     display: flex;
     
     align-items: center;
@@ -29,7 +30,7 @@ nav{
 
 .h3s{
     font-weight: 800;
-    font-size: 45px;
+    font-size: 38px;
    
 }
 
@@ -68,11 +69,11 @@ nav ul{
 .button-style{
     color: white;
     background-color: #FD6E0A;
-    border: none;
+    border:1px solid #FD6E0A;
     border-radius: 5px;
     cursor: pointer;
     font-size: 20px;
-    padding: 10px 20px ;
+    padding: 10px 27px ;
     
    
 }
@@ -80,27 +81,39 @@ nav ul{
 
 .button-style2{
     color: #FD6E0A;
-    border: solid #FD6E0A;
+    border: 2px solid #FD6E0A;
     background-color: white;
     border-radius: 5px;
     cursor: pointer;
     font-size: 20px;
-    padding: 10px 20px ;
+    padding: 10px 30px ;
+    margin: 0px 0px 0px 15px;
 }
 
 .banner{
-    margin: 0px 50px 0px 200px; 
+    margin: 0px 65px 0px 180px; 
     display: flex;
     align-items: center;
+    padding: 0px;
+    justify-content: space-between;
 
 }
 
 .banner-img{
-    width : 534px;
+    width : 549px;
+
 
 }
 
 .hardy{
-    font-size: 40px;
+    font-size: 55px;
+}
+.h4{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.para{
+    color: #474747;
 }
 
